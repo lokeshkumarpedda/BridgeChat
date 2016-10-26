@@ -288,7 +288,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="No Admin" id="o4c-r2-h5h">
-                        <barButtonItem key="leftBarButtonItem" image="backarrow" id="5vf-RZ-csS">
+                        <barButtonItem key="leftBarButtonItem" image="backarrow.png" id="5vf-RZ-csS">
                             <connections>
                                 <action selector="backButtonPressed:" destination="YBg-uk-8SX" id="JAc-WR-gO5"/>
                             </connections>
@@ -346,11 +346,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backarrow" width="30" height="36"/>
+        <image name="backarrow.png" width="30" height="36"/>
         <image name="ic_see_all_button.png" width="192" height="87"/>
         <image name="subscribe_now_go_arrow_image.png" width="133" height="115"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ohe-WP-LGP"/>
+        <segue reference="x2G-rg-6zR"/>
     </inferredMetricsTieBreakers>
 </document>
