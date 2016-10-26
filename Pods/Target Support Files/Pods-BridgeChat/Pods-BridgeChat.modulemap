@@ -1,0 +1,6 @@
+framework module Pods_BridgeChat {
+  umbrella header "Pods-BridgeChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
