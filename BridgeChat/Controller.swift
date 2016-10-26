@@ -14,13 +14,13 @@ import Firebase
 public class Controller: NSObject
 {
     //making object of RestCall
-    let mRestCallObj = RestCall()
+    public let mRestCallObj = RestCall()
     
     //creating reference variable for Firbase Database
-    var mRef : FIRDatabaseReference?
+    public var mRef : FIRDatabaseReference?
     
     //creating variable
-    var mFlag = 1
+    public var mFlag = 1
 
     //getting user names
     public func getUserNames(callback: (Result : String, Result1 : String) -> Void)

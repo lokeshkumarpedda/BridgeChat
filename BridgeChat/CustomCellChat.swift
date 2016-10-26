@@ -14,10 +14,10 @@ public class CustomCellChat: UITableViewCell
 {
 
     //outlet of UILabel
-    @IBOutlet weak var mAdminChatLabel: UILabel!
+    @IBOutlet var mAdminChatLabel: UILabel!
     
     //outlet of UILabel
-    @IBOutlet weak var mChatLabel: UILabel!
+    @IBOutlet var mChatLabel: UILabel!
     
     override public func awakeFromNib()
     {

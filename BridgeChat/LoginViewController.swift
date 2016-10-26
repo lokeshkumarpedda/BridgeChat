@@ -14,28 +14,28 @@ import Firebase
 public class LoginViewController: UIViewController,UITextFieldDelegate
 {    
     //outlet of UITextField for username
-    @IBOutlet weak var mUserName: UITextField!
+    @IBOutlet var mUserName: UITextField!
     
     //outlet of UITextField for password
-    @IBOutlet weak var mPassword: UITextField!
+    @IBOutlet var mPassword: UITextField!
     
     //making object of Controller
-    let mControllerObj = Controller()
+    public let mControllerObj = Controller()
     
     //creating variable for storing user names
-    var mUserNameList = [String]()
+    public var mUserNameList = [String]()
     
     //creating variabe for storing user keys
-    var mUserKeyWithNameList = [String : String]()
+    public var mUserKeyWithNameList = [String : String]()
     
     //creating reference variable for Firbase Database
-    var mRef : FIRDatabaseReference?
+    public var mRef : FIRDatabaseReference?
     
     //making object of RestCall
-    var mRestCallObj = RestCall()
+    public var mRestCallObj = RestCall()
     
     //creating variable for storing user key
-    var mUserKey : String?
+    public var mUserKey : String?
     
     override public func viewDidLoad()
     {

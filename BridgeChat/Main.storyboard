@@ -99,7 +99,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Sign Up" backgroundImage="ic_see_all_button.png"/>
                                 <connections>
-                                    <action selector="signUpPressed:" destination="ncq-zM-9GP" eventType="touchUpInside" id="A7i-fO-v4t"/>
+                                    <action selector="signUpPressed:" destination="ncq-zM-9GP" eventType="touchUpInside" id="Wge-Ld-68z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -119,9 +119,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Register" id="qYy-be-Kpu"/>
                     <connections>
-                        <outlet property="mConfirmPasswordText" destination="HUt-8J-SCg" id="dgp-xo-kg0"/>
-                        <outlet property="mPasswordText" destination="PlS-OE-dur" id="zmC-ll-vdL"/>
-                        <outlet property="mUserNameText" destination="lkx-KW-k75" id="cYh-vW-gI3"/>
+                        <outlet property="mConfirmPasswordText" destination="HUt-8J-SCg" id="kIW-BB-Jzk"/>
+                        <outlet property="mPasswordText" destination="PlS-OE-dur" id="n8y-M2-ArF"/>
+                        <outlet property="mUserNameText" destination="lkx-KW-k75" id="MrM-vu-hZZ"/>
                         <segue destination="wE4-6l-m3d" kind="push" identifier="gotoLoginFromRegister" id="x2G-rg-6zR"/>
                     </connections>
                 </viewController>
@@ -160,7 +160,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Sign In" backgroundImage="ic_see_all_button.png"/>
                                 <connections>
-                                    <action selector="signInPressed:" destination="wE4-6l-m3d" eventType="touchUpInside" id="wXc-JA-RbM"/>
+                                    <action selector="signInPressed:" destination="wE4-6l-m3d" eventType="touchUpInside" id="Wz8-4u-xVC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -177,8 +177,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="Lxj-fC-YZS"/>
                     <connections>
-                        <outlet property="mPassword" destination="K8s-4G-1Ih" id="Q67-V6-T2q"/>
-                        <outlet property="mUserName" destination="ct7-Vt-53u" id="sCg-T4-QDK"/>
+                        <outlet property="mPassword" destination="K8s-4G-1Ih" id="OhV-fQ-VbQ"/>
+                        <outlet property="mUserName" destination="ct7-Vt-53u" id="Mvj-9n-GOX"/>
                         <segue destination="YBg-uk-8SX" kind="push" identifier="gotoMessageInboxController" id="HuK-Ks-K3Z"/>
                     </connections>
                 </viewController>
@@ -215,7 +215,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" backgroundImage="subscribe_now_go_arrow_image.png"/>
                                         <connections>
-                                            <action selector="sendPressed:" destination="YBg-uk-8SX" eventType="touchUpInside" id="aNB-LM-wIE"/>
+                                            <action selector="sendPressed:" destination="YBg-uk-8SX" eventType="touchUpInside" id="Z5l-Ib-wzX"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -316,7 +316,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="mSendButton" destination="3XA-JY-NSq" id="2h0-0N-iPU"/>
+                        <outlet property="mSendButton" destination="3XA-JY-NSq" id="XFr-SW-VyH"/>
                         <outlet property="mStatus" destination="li7-Zn-T3R" id="xlb-Jg-oVR"/>
                         <outlet property="mTextMessage" destination="had-oN-cb2" id="Cdt-wl-tLS"/>
                         <outlet property="tableView" destination="eiA-7W-Exg" id="SCy-2G-lye"/>

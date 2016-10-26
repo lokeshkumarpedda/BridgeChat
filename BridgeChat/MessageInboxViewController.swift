@@ -14,49 +14,49 @@ import Firebase
 public class MessageInboxViewController: UIViewController, UITableViewDelegate,UITableViewDataSource, UITextFieldDelegate
 {
     //outlet of tableView
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var tableView: UITableView!
     
     //outlet of UITextField
-    @IBOutlet weak var mTextMessage: UITextField!
+    @IBOutlet var mTextMessage: UITextField!
     
     //outlet of UILabel for status
-    @IBOutlet weak var mStatus: UILabel!
+    @IBOutlet var mStatus: UILabel!
     
     //outlet of UIButton for send button
-    @IBOutlet weak var mSendButton: UIButton!
+    @IBOutlet var mSendButton: UIButton!
     
     //creating variable for Selected admin name
-    var mSelectedAdminName : String?
+    public var mSelectedAdminName : String?
     
     //creating variable for Selected admin status
-    var mSelectedAdminStatus : String?
+    public var mSelectedAdminStatus : String?
     
     //creating variable for Selected user name
-    var mSelectedUserName : String?
+    public var mSelectedUserName : String?
     
     //making object of RestCall
-    let mRestCallObj = RestCall()
+    public let mRestCallObj = RestCall()
     
     //making object of Controller
-    let mControllerObj = Controller()
+    public let mControllerObj = Controller()
     
     //creating reference variable for Firbase Database
-    var mRef : FIRDatabaseReference?
+    public var mRef : FIRDatabaseReference?
     
     //creating variable flag as a key to store messages
-    var mFlag = 0
+    public var mFlag = 0
     
     //creating variable for storing user messages
-    var mUserMessageList = [Int: String]()
+    public var mUserMessageList = [Int: String]()
     
     //creating variable for storing admin messages
-    var mAdminMessageList = [Int: String]()
+    public var mAdminMessageList = [Int: String]()
     
     //For loading
-    var mActivityIndicator = UIActivityIndicatorView()
+    public var mActivityIndicator = UIActivityIndicatorView()
     
     //For activity indicator display
-    let mActivityIndicatorContainer = UIView()
+    public let mActivityIndicatorContainer = UIView()
     
     override public func viewDidLoad()
     {

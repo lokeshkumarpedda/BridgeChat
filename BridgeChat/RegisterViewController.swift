@@ -14,31 +14,31 @@ import Firebase
 public class RegisterViewController: UIViewController,UITextFieldDelegate
 {
     //outlet of UITextField for username
-    @IBOutlet weak var mUserNameText: UITextField!
+    @IBOutlet var mUserNameText: UITextField!
     
     //outlet of UITextField for password
-    @IBOutlet weak var mPasswordText: UITextField!
+    @IBOutlet var mPasswordText: UITextField!
     
     //outlet of UITextField for confirm password
-    @IBOutlet weak var mConfirmPasswordText: UITextField!
+    @IBOutlet var mConfirmPasswordText: UITextField!
     
     //creating reference variable for Firbase Database
-    var mRef : FIRDatabaseReference?
+    public var mRef : FIRDatabaseReference?
 
     //creating variable for storing user key
-    var mKey : String?
+    public var mKey : String?
     
     //creating object for RestCall
-    let mRestCallObj = RestCall()
+    public let mRestCallObj = RestCall()
     
     //making object of Controller
-    let mControllerObj = Controller()
+    public let mControllerObj = Controller()
     
     //creating variable for storing user names
-    var mUserNameList = [String]()
+    public var mUserNameList = [String]()
     
     //creating variable
-    var mFlag = 0
+    public var mFlag = 0
     
     override public func viewDidLoad()
     {
@@ -65,7 +65,7 @@ public class RegisterViewController: UIViewController,UITextFieldDelegate
     }
     
     //creating tap gesture recognizer
-    private func addTapGesture()
+    public func addTapGesture()
     {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(MessageInboxViewController.tap(_:)))
         view.addGestureRecognizer(tapGesture)
