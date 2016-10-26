@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BridgeChat"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "BridgeChat is for chating with admin in by using firebase."
 
   # This description is used to generate tags and improve search results.

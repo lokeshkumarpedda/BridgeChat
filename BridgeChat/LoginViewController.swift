@@ -62,7 +62,7 @@ public class LoginViewController: UIViewController,UITextFieldDelegate
     }
     
     //creating tap gesture recognizer
-    private func addTapGesture()
+    public func addTapGesture()
     {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(MessageInboxViewController.tap(_:)))
         view.addGestureRecognizer(tapGesture)
