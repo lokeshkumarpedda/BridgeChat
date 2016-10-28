@@ -10,7 +10,6 @@
 
 import UIKit
 import Firebase
-
 public class RestCall: NSObject
 {
     //getting reference url of firebase database

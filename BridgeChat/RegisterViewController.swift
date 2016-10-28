@@ -10,7 +10,6 @@
 
 import UIKit
 import Firebase
-
 public class RegisterViewController: UIViewController,UITextFieldDelegate
 {
     //outlet of UITextField for username
