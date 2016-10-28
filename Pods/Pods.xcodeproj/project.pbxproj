@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AF5F0F91DC3256B0007DD7B /* BridgeChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BridgeChat.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BridgeChat-ewitcbzaznfcpxdaxkjnyjqvhiwj/Build/Products/Debug-iphonesimulator/BridgeChat.framework"; sourceTree = "<group>"; };
 		10293DE6314C74AE286747AEDFC27470 /* Pods-BridgeChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BridgeChat.modulemap"; sourceTree = "<group>"; };
 		1366AC6D8174E11939708D9C647BA8CB /* Pods-BridgeChat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BridgeChat-resources.sh"; sourceTree = "<group>"; };
 		173BE3D5E7FD6884B2A5AF3236974771 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
@@ -191,6 +192,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AF5F0F91DC3256B0007DD7B /* BridgeChat.framework */,
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
